@@ -16,9 +16,10 @@ composeBom = "2025.06.00"
 
 # Mockito
 #mockitoCore = "5.18.0"  # This version causes the issue
+# mockitoAndroid = "5.18.0" # This version causes the issue
 mockitoCore = "5.17.0"  # Previous working version
+mockitoAndroid = "5.17.0" # Previous working version
 mockitoKotlin = "5.4.0"
-mockitoAndroid = "5.18.0"
 
 # Jacoco
 jacoco = "0.8.13"
