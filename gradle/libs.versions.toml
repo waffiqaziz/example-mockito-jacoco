@@ -15,10 +15,11 @@ activityCompose = "1.10.1"
 composeBom = "2025.06.00"
 
 # Mockito
-#mockitoCore = "5.18.0"  # This version causes the issue
-mockitoCore = "5.17.0"  # Previous working version
+mockitoCore = "5.18.0"  # This version causes the issue
+mockitoAndroid = "5.18.0" # This version causes the issue
+#mockitoCore = "5.17.0"  # Previous working version
+#mockitoAndroid = "5.17.0" # Previous working version
 mockitoKotlin = "5.4.0"
-mockitoAndroid = "5.18.0"
 
 # Jacoco
 jacoco = "0.8.13"
@@ -33,10 +34,6 @@ androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-co
 mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockitoCore" }
 mockito-kotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "mockitoKotlin" }
 mockito-android = { group = "org.mockito", name = "mockito-android", version.ref = "mockitoAndroid" }
-
-# Jacoco
-jacoco-agent = { group = "org.jacoco", name = "org.jacoco.agent", version.ref = "jacoco" }
-jacoco-ant = { group = "org.jacoco", name = "org.jacoco.ant", version.ref = "jacoco" }
 
 # Core Android
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -57,4 +54,4 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-jacoco = { id = "jacoco" }
+jacoco = { id = "jacoco"}
