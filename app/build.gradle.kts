@@ -27,6 +27,9 @@ android {
     debug {
       enableUnitTestCoverage = true
       enableAndroidTestCoverage = true
+      testCoverage {
+        jacocoVersion = libs.versions.jacoco.get()
+      }
     }
     release {
       isMinifyEnabled = false
